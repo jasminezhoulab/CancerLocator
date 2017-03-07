@@ -1,0 +1,18 @@
+# the traning file, only methylation values needed
+trainFile=example_train
+# the testing file with methylated CpG counts
+testMethyFile=example_test_methy
+# the testing file with CpG counts
+testDepthFile=example_test_depth
+# the file used to map sample types to prediction classes
+typeMappingFile=example_type2class
+# the output file
+resultFile=run_result
+# the interval of theta values used in the inference
+thetaStep=0.01
+# methylation range cutoff used for feature filtering
+methylationRangeCutoff=0.4
+# the cutoff of log-likelihood ratio used in prediction
+logLikelihoodRatioCutoff=0.001
+# number of threads
+nThreads=4

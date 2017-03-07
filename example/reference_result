@@ -1,0 +1,81 @@
+Sample ID	Log-likelihood ratio	Predicted tumor burden	Predicted sample class
+plasma_background_1	0.0	0	normal
+plasma_background_2	0.0	0	normal
+plasma_background_3	0.0	0	normal
+plasma_background_4	0.0	0	normal
+plasma_background_5	0.0	0	normal
+plasma_background_6	0.0	0	normal
+plasma_background_7	0.0	0	normal
+plasma_background_8	0.0	0	normal
+plasma_background_9	0.0	0	normal
+plasma_background_10	0.0	0	normal
+plasma_background_11	0.0	0	normal
+plasma_background_12	0.0	0	normal
+plasma_background_13	0.0	0	normal
+plasma_background_14	0.0	0	normal
+plasma_background_15	0.0	0	normal
+plasma_background_16	0.0	0	normal
+plasma_background_17	3.393523089788992E-4	0.01	normal
+plasma_background_18	0.0	0	normal
+plasma_background_19	0.0	0	normal
+plasma_background_20	0.0	0	normal
+brca_1	3.713534186447907E-4	0.02	normal
+brca_2	0.01985053323824251	0.18	breast cancer
+brca_3	0.010960364961427218	0.62	breast cancer
+brca_4	0.021875864765674585	0.85	breast cancer
+brca_5	0.0	0	normal
+brca_6	0.007404326023136624	0.25	breast cancer
+brca_7	0.0026573892415379173	0.1	breast cancer
+brca_8	0.01905897584773585	0.99	breast cancer
+brca_9	0.00790018955677623	0.28	breast cancer
+brca_10	0.01277040159554365	0.52	breast cancer
+brca_11	0.016621632908766774	0.72	breast cancer
+brca_12	0.00488395845067999	0.29	breast cancer
+brca_13	0.00898247413451518	0.65	breast cancer
+brca_14	0.0072245725190396735	0.49	breast cancer
+brca_15	0.00913131777636994	0.56	breast cancer
+brca_16	0.0025277579934568986	0.22	breast cancer
+brca_17	0.02208663192206531	0.81	lung cancer
+brca_18	0.003656290261941529	0.12	breast cancer
+brca_19	0.0142575307175053	0.28	breast cancer
+brca_20	0.0221943489992746	0.87	breast cancer
+lihc_1	0.010558288622683687	0.83	liver cancer
+lihc_2	0.005832435865354163	0.49	liver cancer
+lihc_3	0.014478422026330038	0.59	liver cancer
+lihc_4	0.015029184118415069	0.68	liver cancer
+lihc_5	0.015233557926323941	0.41	liver cancer
+lihc_6	0.001964634005208471	0.1	liver cancer
+lihc_7	0.011597558421626507	0.74	liver cancer
+lihc_8	0.009260113364325315	0.51	liver cancer
+lihc_9	0.012391600236548707	0.51	liver cancer
+lihc_10	8.536961084954394E-4	0.04	normal
+lihc_11	0.00149462232410116	0.18	lung cancer
+lihc_12	0.019162461792109668	0.73	liver cancer
+lihc_13	0.0016234900416267147	0.07	liver cancer
+lihc_14	0.01804143742789799	0.63	liver cancer
+lihc_15	0.0	0	normal
+lihc_16	0.017405686941569798	0.37	liver cancer
+lihc_17	2.3922559714622122E-4	0.02	normal
+lihc_18	0.00812846119189485	0.85	liver cancer
+lihc_19	0.014038688457714124	0.58	liver cancer
+lihc_20	0.016488132806680728	0.9	liver cancer
+luad_1	0.02297052970518038	0.75	lung cancer
+luad_2	0.013734112760519768	0.66	lung cancer
+luad_3	0.016697994560038686	0.78	lung cancer
+luad_4	0.0055859840331864185	0.31	lung cancer
+luad_5	0.0194039654467055	0.5	breast cancer
+luad_6	0.009107615177511744	0.64	lung cancer
+luad_7	0.004970333991921142	0.34	breast cancer
+luad_8	0.012143832291263977	0.39	breast cancer
+luad_9	0.00811282602405085	0.3	lung cancer
+luad_10	0.0021054550110857855	0.13	lung cancer
+lusc_1	0.00668915177346057	0.82	lung cancer
+lusc_2	0.016348738677789843	0.35	lung cancer
+lusc_3	0.027266070962476758	0.55	lung cancer
+lusc_4	0.008036441962935317	0.74	lung cancer
+lusc_5	0.014875110395387326	0.75	lung cancer
+lusc_6	0.01099808457434363	0.44	lung cancer
+lusc_7	0.006105588777194912	0.61	lung cancer
+lusc_8	0.0019945917416587405	0.12	lung cancer
+lusc_9	0.010553595107649942	0.81	lung cancer
+lusc_10	9.174969777392088E-4	0.05	normal
