@@ -1,7 +1,7 @@
 ========================
 REQUIREMENTS
 ========================
-Java 1.8+
+Java 1.8+  
 Apache Commons Math (if you want to build the source)
 
 ========================
@@ -27,23 +27,23 @@ File Instruction
 ========================
 All the input and output files are tab delimited. trainFile, testMethyFile and testDepthFile must have the same number of columns. 
 
-trainFile: 
+trainFile:   
     Each line represents a training sample. The first column is the sample type and the remaining columns are methylation values (beta values) of the features.
 
-testMethyFile:
+testMethyFile:  
     Each line represents a training sample. The first column is the sample ID and the remaining columns are methylation values (beta values) of the features.
 
-testDepthFile:
+testDepthFile:  
     Each line represents a training sample. The first column is the sample ID and the remaining columns are CpG counts on reads aligned to these clusters.
 
-typeMappingFile:
+typeMappingFile:  
     Column 1: the sample types
     Column 2: corresponding classes in the prediction
     For example, the following two lines in this file indicates that both LUAD and LUSC samples would be considered as lung cancer in the prediction.
     LUAD    lung cancer
     LUSC    lung cancer
 
-resultFile:
+resultFile:  
     Column 1: sample ID
     Column 2: likelihood ratio in logarithmic scale
     Column 3: predicted blood tumor burden (i.e. theta value)
@@ -54,11 +54,11 @@ Example
 ========================
 The examples of all the files needed to run CancerLocator are provided under the "example" folder.
 
-To run the example:
-Linux/OSX:
+To run the example:  
+Linux/OSX:  
 ./run_example.sh
 
-Windows:
+Windows:  
 ./run_example.cmd
 
 ========================
