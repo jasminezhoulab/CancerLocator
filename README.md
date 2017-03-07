@@ -59,7 +59,7 @@ Linux/OSX:
 ./run_example.sh
 
 Windows:  
-./run_example.cmd
+run_example.cmd
 
 ========================
 Contact
