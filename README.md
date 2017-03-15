@@ -1,10 +1,10 @@
-========================
-REQUIREMENTS
+
+Requirements
 ========================
 Java 1.8+  
 Apache Commons Math (if you want to build the source)
 
-========================
+
 Usage
 ========================
 java -jar CancerLocator.jar config_file
@@ -22,7 +22,7 @@ java -jar CancerLocator.jar config_file
     logLikelihoodRatioCutoff: the cutoff of log-likelihood ratio used in prediction
     nThreads: number of threads
 
-========================
+
 File Instruction
 ========================
 All the input and output files are tab delimited. trainFile, testMethyFile and testDepthFile must have the same number of columns. 
@@ -49,7 +49,7 @@ resultFile:
     Column 3: predicted blood tumor burden (i.e. theta value)
     Column 4: predicted sample calss (normal or one of the cancer tissues)
  
-========================
+
 Example
 ========================
 The examples of all the files needed to run CancerLocator are provided under the "example" folder.
@@ -61,7 +61,7 @@ Linux/OSX:
 Windows:  
 run_example.cmd
 
-========================
+
 Contact
 ========================
 XJZhou@mednet.ucla.edu
