@@ -1,7 +1,11 @@
 
-Requirements
+CancerLocator
 ========================
-Java 1.8+  
+A tool for cell-free DNA based cancer diagnosis and tissue-of-origin prediction.
+
+Prerequisites
+========================
+Java 1.8  
 Apache Commons Math (if you want to build the source)
 
 
