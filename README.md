@@ -1,13 +1,13 @@
 
-#**CancerLocator**  
+# **CancerLocator**  
 A tool for cell-free DNA based cancer diagnosis and tissue-of-origin prediction.
 
-##Prerequisites  
+## Prerequisites  
 Java 1.8  
 Apache Commons Math (if you want to build the source)
 
 
-##Usage
+## Usage
 java -jar CancerLocator.jar config_file
 
     config_file is a configuration file in Java Properties format.
@@ -24,7 +24,7 @@ java -jar CancerLocator.jar config_file
     nThreads: number of threads
 
 
-##File Instruction  
+## File Instruction  
 
 All the input and output files are tab delimited. trainFile, testMethyFile and testDepthFile must have the same number of columns. 
 
@@ -51,7 +51,7 @@ _resultFile_:
     Column 4: predicted sample calss (normal or one of the cancer tissues)  
  
 
-##Example
+## Example
 
 The examples of all the files needed to run CancerLocator are provided under the "example" folder.  
 
@@ -63,6 +63,6 @@ Windows:
 run_example.cmd
 
 
-##Contact
+## Contact
 
 XJZhou@mednet.ucla.edu
