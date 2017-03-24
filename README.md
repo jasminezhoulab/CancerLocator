@@ -63,6 +63,13 @@ Windows:
 run_example.cmd
 
 
+## Reference
+
+[__CancerLocator: non-invasive cancer diagnosis and tissue-of-origin prediction using methylation profiles of cell-free DNA__](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1191-5)  
+Genome Biology, March 2017 18:53. DOI:10.1186/s13059-017-1191-5  
+_Shuli Kang, Qingjiao Li, Quan Chen, Yonggang Zhou, Stacy Park, Gina Lee, Brandon Grimes, Kostyantyn Krysan, Min Yu, Wei Wang, Frank Alber, Fengzhu Sun, Steven M. Dubinett*, Wenyuan Li*, Xianghong Jasmine Zhou*_ (* Joint corresponding author)
+
+
 ## Contact
 
 XJZhou@mednet.ucla.edu
