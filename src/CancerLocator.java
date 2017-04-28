@@ -41,12 +41,11 @@ public class CancerLocator {
 		double rangeCut = Double.parseDouble(prop.getProperty("methylationRangeCutoff"));
 		// likelihood ratio cutoff used in prediction
 		double ratioCut = Double.parseDouble(prop.getProperty("logLikelihoodRatioCutoff"));
-		// theta step
-		//double thetaStep = Double.parseDouble(prop.getProperty("thetaStep"));
-		double thetaStep = 0.01;
 		// #threads used
 		int nThreads = Integer.parseInt(prop.getProperty("nThreads"));
 
+		// theta step
+		double thetaStep = 0.01;
 		int nBetas = 201; // num of beta values used in Simpson integration
 
 		System.out.println("Run configration:");
@@ -118,11 +117,12 @@ public class CancerLocator {
 		Arrays.fill(selectedFeatures, Boolean.TRUE);
 
 		// within each type
+
 		for (String type : sampleTypes) {
 			RealVector alpha = models.get(type).getAlpha();
 			RealVector beta = models.get(type).getBeta();
 			for (int i = 0; i < featureNum; i++) {
-				if (!(alpha.getEntry(i) > 0 && beta.getEntry(i) > 0)) {
+				if (Double.isInfinite(alpha.getEntry(i)) || alpha.getEntry(i) <= 0 || beta.getEntry(i) <= 0) {
 					selectedFeatures[i] = false;
 				}
 			}
@@ -292,7 +292,7 @@ public class CancerLocator {
 			}  catch (Exception e) {
 				predTheta = -1;
 			}
-			double densRatio = predSample.getDensRatio()/nSelectedFeatures; //normalized by feature number
+			double densRatio = predSample.getDensRatio();
 			String predType = predSample.getType();
 			if (densRatio==0) predType = normalType; // no matter what cutoff used
 			String predClass = densRatio<ratioCut?type2Class.get(normalType):type2Class.get(predType);

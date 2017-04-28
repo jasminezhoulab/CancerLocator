@@ -13,6 +13,6 @@ thetaStep=0.01
 # methylation range cutoff used for feature filtering
 methylationRangeCutoff=0.4
 # the cutoff of log-likelihood ratio used in prediction
-logLikelihoodRatioCutoff=0.001
+logLikelihoodRatioCutoff=0.01
 # number of threads
 nThreads=4
